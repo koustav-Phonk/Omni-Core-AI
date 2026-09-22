@@ -1,0 +1,7 @@
+{
+  "name": "Nexus AI",
+  "description": "Tactile dark-skeuomorphic multi-AI workstation supporting OpenAI, Gemini, Claude, Grok, DeepSeek, Mistral, Llama, and side-by-side model comparison.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

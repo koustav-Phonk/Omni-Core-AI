@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Raised metallic center disc -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0 1,1 56,0a28,28 0 1,1 -56,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="30"
+                android:endX="76"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#FF3A4250" android:offset="0.0" />
+                <item android:color="#FF252B35" android:offset="0.5" />
+                <item android:color="#FF1A1D24" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer brushed metal bezel highlight -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0 1,1 56,0a28,28 0 1,1 -56,0"
+        android:strokeWidth="2.5"
+        android:strokeColor="#5575889E"
+        android:fillColor="#00000000" />
+
+    <!-- Recessed inner cavity -->
+    <path
+        android:pathData="M54,54m-20,0a20,20 0 1,1 40,0a20,20 0 1,1 -40,0"
+        android:fillColor="#FF0F1116"
+        android:strokeWidth="1.2"
+        android:strokeColor="#FF08090C" />
+
+    <!-- Multi-model bus connections (4 cardinal pins) -->
+    <path
+        android:pathData="M54,20L54,34 M54,74L54,88 M20,54L34,54 M74,54L88,54"
+        android:strokeWidth="3"
+        android:strokeColor="#FF00E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- Secondary diagonal bus conduits -->
+    <path
+        android:pathData="M30,30L40,40 M78,30L68,40 M30,78L40,68 M78,78L68,68"
+        android:strokeWidth="2"
+        android:strokeColor="#FFA78BFA"
+        android:strokeLineCap="round" />
+
+    <!-- Central illuminated diode / core emitter -->
+    <path
+        android:pathData="M54,54m-10,0a10,10 0 1,1 20,0a10,10 0 1,1 -20,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="46"
+                android:endX="60"
+                android:endY="62"
+                android:type="linear">
+                <item android:color="#FF00F5FF" android:offset="0.0" />
+                <item android:color="#FF0088FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Core highlight specular glint -->
+    <path
+        android:pathData="M51,49m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#CCFFFFFF" />
+
+</vector>
+
